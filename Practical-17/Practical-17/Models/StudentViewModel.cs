@@ -12,7 +12,7 @@ namespace Practical_17.Models
    
         public string Name { get; set; }
 
-        public int Age { get; set; }
+       
        
     }
 }
