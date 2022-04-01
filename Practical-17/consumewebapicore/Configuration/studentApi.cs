@@ -11,7 +11,7 @@ namespace consumewebapicore.Configuration
         public HttpClient initial()
         {
             var client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:54609/");
+            client.BaseAddress = new Uri("https://localhost:44306/");
             return client;
         }
     }
